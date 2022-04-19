@@ -28,3 +28,5 @@ node beta.js "https://website.com" 600 64 GET --mode browser --geo all --conn 32
 
 
 Method hacked from Booter.sx, released by Stresser.US - method updated and upgraded to HTTP/2 by forky and WeAreRainBowHAT
+
+Hacked by T13R and forky
