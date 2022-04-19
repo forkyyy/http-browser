@@ -5,6 +5,8 @@ HTTP Browser method using FlareSolverr
 
 sh install.sh
 
+unzip solvers.zip
+
 install the other depedencies as the script asks with 'npm i name'
 
 cd solvers/flaresolver01; export PUPPETEER_PRODUCT=firefox; npm install
