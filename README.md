@@ -1,41 +1,36 @@
-# http-browser
+# HTTP BROWSER
 HTTP Browser method using FlareSolverr
 
+# Requirements:
+- NodeJS 16.x
 
+# Installation
+- Execute the installation script: sh install.sh
 
-sh install.sh
+# Install dependencies
+- npm i request
+- npm i colors
+- npm i sync-request
+- npm i request-promise
+- npm i minimist
 
-unzip solvers.zip
+# Install FlareSolverr (This can take some minutes):
+- Unzip solvers.zip
+- cd solvers/flaresolver01; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver02; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver03; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver04; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver05; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver06; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver07; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver08; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver09; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+- cd ../; cd flaresolver10; export PUPPETEER_PRODUCT=firefox; npm install; npm run
+  
+# Usage
+- Run the solvers using: python3 start_solvers.py
+- Run the method using: node beta.js "https://website.com" 600 64 GET --mode browser --geo all --conn 32
 
-install the other depedencies as the script asks with 'npm i name'
-
-cd solvers/flaresolver01; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver02; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver03; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver04; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver05; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver06; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver07; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver08; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver09; export PUPPETEER_PRODUCT=firefox; npm install
-
-cd ../; cd flaresolver10; export PUPPETEER_PRODUCT=firefox; npm install
-
-python start_solvers.py
-
-run the method 
-
-node beta.js "https://website.com" 600 64 GET --mode browser --geo all --conn 32
-
-
-Method hacked from Booter.sx, released by Stresser.US - method updated and upgraded to HTTP/2 by forky and WeAreRainBowHAT
-
-Hacked by T13R and forky
+# Information
+- This method is the HTTP-BROWSER from booter.sx upgraded to HTTP/2.0 by forky & WeAreRainBowHAT
+- Booter.sx hacked by T13R and forky
