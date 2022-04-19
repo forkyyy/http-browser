@@ -11,23 +11,23 @@ install the other depedencies as the script asks with 'npm i name'
 
 cd solvers/flaresolver01; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver02; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver02; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver03; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver03; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver04; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver04; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver05; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver05; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver06; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver06; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver07; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver07; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver08; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver08; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver09; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver09; export PUPPETEER_PRODUCT=firefox; npm install
 
-cd solvers/flaresolver10; export PUPPETEER_PRODUCT=firefox; npm install
+cd ../; cd flaresolver10; export PUPPETEER_PRODUCT=firefox; npm install
 
 python start_solvers.py
 
